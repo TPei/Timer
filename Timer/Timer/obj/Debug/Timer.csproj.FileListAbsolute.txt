@@ -11,3 +11,5 @@ C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.Pro
 C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.csproj.GenerateResource.Cache
 C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.exe
 C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.pdb
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\bin\Debug\alarm.wav
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer_Content.g.cs

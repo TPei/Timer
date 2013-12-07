@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,6 +26,7 @@ namespace Timer
         private readonly string DEFAULT_TIME = "00:00:00";
 
         private DispatcherTimer gameTimer;
+        SoundPlayer player = new SoundPlayer("alarm.wav");
         private bool stopwatch;
 
         public MainWindow()
@@ -50,12 +52,20 @@ namespace Timer
 
         /// <summary>
         /// stop the timer
+        /// also stop alarm sound if playing
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void StopButton_Click_1(object sender, RoutedEventArgs e)
-        {
-            gameTimer.Stop();
+        {            
+            try
+            {
+                gameTimer.Stop();
+                player.Stop();
+            }
+            catch (Exception exc)
+            { }
+            
         }
 
         /// <summary>
@@ -79,7 +89,7 @@ namespace Timer
                 time = time.Add(second);
             else // count time down
             {
-                if(time.ToString("HH:mm:ss") == DEFAULT_TIME)
+                if (time.ToString("HH:mm:ss") == DEFAULT_TIME)
                     timerFinished();
                 else
                     time = time.Subtract(second);
@@ -141,6 +151,7 @@ namespace Timer
         public void timerFinished()
         {
             gameTimer.Stop();
+            player.Play();
         }
     }
 }

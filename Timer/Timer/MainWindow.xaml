@@ -1,7 +1,10 @@
 ﻿<Window x:Class="Timer.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow"
+        Icon="clock.ico"
+        Height="350" 
+        Width="525">
     <Grid>
         <Button Content="Start" HorizontalAlignment="Left" Margin="99,229,0,0" VerticalAlignment="Top" Width="117" Height="54" Click="StartButton_Click"/>
         <Button Content="Stop" HorizontalAlignment="Left" Margin="301,229,0,0" VerticalAlignment="Top" Width="117" Height="54" Click="StopButton_Click_1"/>
