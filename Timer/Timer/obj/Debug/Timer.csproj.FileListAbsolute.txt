@@ -1,0 +1,13 @@
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\bin\Debug\Timer.exe.config
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\bin\Debug\Timer.exe
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\bin\Debug\Timer.pdb
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\MainWindow.baml
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\MainWindow.g.cs
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\App.g.cs
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer_MarkupCompile.cache
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.g.resources
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.Properties.Resources.resources
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.csproj.GenerateResource.Cache
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.exe
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Debug\Timer.pdb
