@@ -3,15 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow"
         Icon="clock.ico"
-        Height="350" 
-        Width="525">
+        Height="303.5" 
+        Width="411.5">
     <Grid>
-        <Button Content="Start" HorizontalAlignment="Left" Margin="99,229,0,0" VerticalAlignment="Top" Width="117" Height="54" Click="StartButton_Click"/>
-        <Button Content="Stop" HorizontalAlignment="Left" Margin="301,229,0,0" VerticalAlignment="Top" Width="117" Height="54" Click="StopButton_Click_1"/>
-        <RadioButton Name="TimerRadioButton" GroupName="Timer" Content="Timer" HorizontalAlignment="Left" Margin="99,164,0,0" VerticalAlignment="Top"/>
-        <RadioButton Name="StopWatchRadioButton" GroupName="Timer" IsChecked="True" Content="Stopwatch" HorizontalAlignment="Left" Margin="99,184,0,0" VerticalAlignment="Top"/>
-        <Button Content="Reset" HorizontalAlignment="Left" Margin="344,149,0,0" VerticalAlignment="Top" Width="74" Click="ResetButton_Click"/>
-        <TextBox Name="TimeLabel" FontSize="40" Text="00:00:00" HorizontalAlignment="Left" Margin="183,74,0,0" VerticalAlignment="Top" Width="158" Height="58"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="48,191,0,0" VerticalAlignment="Top" Width="117" Height="54" Click="StartButton_Click"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="250,191,0,0" VerticalAlignment="Top" Width="117" Height="54" Click="StopButton_Click_1"/>
+        <RadioButton Name="TimerRadioButton" GroupName="Timer" Content="Timer" HorizontalAlignment="Left" Margin="48,126,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="StopWatchRadioButton" GroupName="Timer" IsChecked="True" Content="Stopwatch" HorizontalAlignment="Left" Margin="48,146,0,0" VerticalAlignment="Top"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="293,111,0,0" VerticalAlignment="Top" Width="74" Click="ResetButton_Click"/>
+        <TextBox Name="TimeLabel" FontSize="40" Text="00:00:00" HorizontalAlignment="Left" Margin="131,36,0,0" VerticalAlignment="Top" Width="153" Height="58"/>
 
     </Grid>
 </Window>

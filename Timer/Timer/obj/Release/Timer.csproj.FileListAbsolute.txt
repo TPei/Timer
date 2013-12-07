@@ -12,3 +12,4 @@ C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Release\Timer.P
 C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Release\Timer.csproj.GenerateResource.Cache
 C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Release\Timer.exe
 C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Release\Timer.pdb
+C:\Users\Thomas\Dropbox\Programming\Github\Timer\Timer\Timer\obj\Release\Timer.csprojResolveAssemblyReference.cache
