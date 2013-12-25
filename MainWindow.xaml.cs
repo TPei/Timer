@@ -25,13 +25,16 @@ namespace Timer
         private readonly string MAX_TIME = "23:59:59";
         private readonly string DEFAULT_TIME = "00:00:00";
 
-        private DispatcherTimer gameTimer;
+        private DispatcherTimer gameTimer = new DispatcherTimer();
+
         SoundPlayer player = new SoundPlayer("alarm.wav");
         private bool stopwatch;
 
         public MainWindow()
         {
             InitializeComponent();
+            gameTimer.Tick += new EventHandler(gameTimer_Tick);
+            gameTimer.Interval = new TimeSpan(0, 0, 1);
 
         }
 
@@ -43,10 +46,8 @@ namespace Timer
         /// <param name="e"></param>
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-            gameTimer = new DispatcherTimer();
+            gameTimer.Stop();
             gameTimer.Start();
-            gameTimer.Tick += new EventHandler(gameTimer_Tick);
-            gameTimer.Interval = new TimeSpan(0, 0, 1);
             stopwatch = (bool)StopWatchRadioButton.IsChecked;
         }
 
@@ -119,10 +120,26 @@ namespace Timer
             char[] splitChar = { ':' };
             string[] time = timeText.Split(splitChar);
 
-            int seconds = Convert.ToInt32(time[2]);
-            int minutes = Convert.ToInt32(time[1]);
-            int hours = Convert.ToInt32(time[0]);
+            int seconds = 00;
+            int minutes = 00;
+            int hours = 00;
+            
+            // three seperate try / catch blocks
+            // so that any valid part of the time is used
+            try {
+                seconds = Convert.ToInt32(time[2]);
+            }
+            catch(Exception exc) { }
 
+            try{
+                minutes = Convert.ToInt32(time[1]);
+            }
+            catch(Exception exc) { }
+
+            try{
+                hours = Convert.ToInt32(time[0]);
+            }
+            catch (Exception exc) { }
 
             while (seconds >= 60)
             {
